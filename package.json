@@ -4,5 +4,10 @@
     "express": "^4.18.2",
     "mongoose": "^7.0.5",
     "node-modules": "^1.0.1"
+  },
+    "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "build": "webpack --mode production"
   }
 }
